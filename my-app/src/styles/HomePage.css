@@ -1,0 +1,44 @@
+
+.button-container {
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    top: 0;
+    right: 0;
+}
+
+.button-container a{
+    padding: 15px;
+    color: black;
+    font-family: 'Courier New';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+img {
+    width: 400px;
+}
+
+.typewriter {
+    width: 500px;
+    font-family: 'Courier New';
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
