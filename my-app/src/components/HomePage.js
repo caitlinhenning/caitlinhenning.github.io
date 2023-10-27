@@ -6,12 +6,14 @@ import Typewriter from "typewriter-effect";
 
 const HomePage = () => {
   return (
-    <div>
+    <div class="container">
       <div class="button-container">
-        <a href="https://drive.google.com/file/d/1yc1FUO9EBAPg2jzzUTgCRWqYgxtGQdCm/view?usp=sharing">Resume</a>
-        <a href="https://dl.acm.org/doi/fullHtml/10.1145/3563657.3596004">Research Paper</a>
-        <a href="https://www.figma.com/file/wXkJGzhP5xpJ2tmtIwhYF9/UI%2FUX-Wireframe?type=design&node-id=0-1&mode=design&t=SkDe1gFZGKpN1rxP-0">Figma Design</a>
-        <a href="https://github.com/caitlinhenning/reminders">Calendar Project</a>
+        <a href="https://drive.google.com/file/d/1yc1FUO9EBAPg2jzzUTgCRWqYgxtGQdCm/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://www.linkedin.com/in/caitlinhenning7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://endthecycleatum.org/high-school-computer-sc" target="_blank" rel="noopener noreferrer">End the Cycle</a>
+        <a href="https://dl.acm.org/doi/fullHtml/10.1145/3563657.3596004" target="_blank" rel="noopener noreferrer">Research Paper</a>
+        <a href="https://www.figma.com/file/wXkJGzhP5xpJ2tmtIwhYF9/UI%2FUX-Wireframe?type=design&node-id=0-1&mode=design&t=SkDe1gFZGKpN1rxP-0" target="_blank" rel="noopener noreferrer">Figma Wireframe</a>
+        <a href="https://github.com/caitlinhenning/reminders" target="_blank" rel="noopener noreferrer">Calendar Project</a>
       </div>
       <div class="image-container">
         <div class="typewriter">
